@@ -7,7 +7,7 @@ body{
         margin: 0% auto;
     }
 
-    .flex{
+    .flex, .subscribe{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -106,4 +106,14 @@ padding: 58px 0;
     line-height: 21px;
     color: #FFFFFF;
     text-decoration: none;
+    }
+    .subscribe{
+        margin-bottom: 85px;
+    }
+    .subscribe__title{
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 45px;
+        color: #1C1C1C;
+
     }
